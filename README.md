@@ -97,3 +97,13 @@ DISM /online /Set-Edition:ServerStandard   /ProductKey:TM24T-X9RMF-VWXK6-X8JC9-B
 ```bash
 DISM /online /Set-Edition:ServerEnterprise   /ProductKey:YQGMW-MPWTJ-34KDK-48M3W-X4Q6V /AcceptEula
 ```
+
+
+CUỐI CÙNG CHẠY LỆNH DƯỚI ĐÂY ĐỂ KÍCH HOẠT MÁY CHỦ 
+```bash
+slmgr /skms kms.digiboy.ir
+```
+
+```bash
+slmgr /ato
+```
